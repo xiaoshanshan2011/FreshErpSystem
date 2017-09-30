@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FreshErp.iml" filepath="$PROJECT_DIR$/FreshErp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PubLibrary/PubLibrary.iml" filepath="$PROJECT_DIR$/PubLibrary/PubLibrary.iml" />
     </modules>
   </component>
 </project>
