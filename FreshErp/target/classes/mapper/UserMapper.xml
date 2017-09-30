@@ -2,8 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--resultType 指定单条记录返回的类型-->
-<mapper namespace="com.erp.fresh.model.User">
-    <select id="findById" parameterType="int" resultType="com.erp.fresh.model.User">
+<mapper namespace="com.erp.fresh.dao.UserDao">
+    <select id="queryById" parameterType="int" resultType="com.erp.fresh.model.User">
         select * from t_user where id = #{id}
     </select>
 </mapper>

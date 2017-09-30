@@ -4,31 +4,24 @@ package com.erp.fresh.model;
  * Created by chenjunshan on 16-12-27.
  */
 public class User {
-    private Integer id;
-    private Integer age;
+    private int id;
+    private int age;
     private String username;
     private String password;
 
-    public User(Integer id, Integer age, String username, String password) {
-        this.id = id;
-        this.age = age;
-        this.username = username;
-        this.password = password;
-    }
-
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public Integer getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(Integer age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
