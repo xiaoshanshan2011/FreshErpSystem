@@ -1,7 +1,7 @@
-package com.erp.fresh.dao;
+package com.erp.fresh.service;
 
 import com.erp.fresh.model.User;
 
-public interface UserDao {
+public interface UserService {
     User queryByName(String username);
 }

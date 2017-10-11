@@ -3,7 +3,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--resultType 指定单条记录返回的类型-->
 <mapper namespace="com.erp.fresh.dao.UserDao">
-    <select id="queryById" parameterType="int" resultType="com.erp.fresh.model.User">
-        select * from t_user where id = #{id}
+    <select id="queryByName" parameterType="String" resultType="com.erp.fresh.model.User">
+        select * from t_user where username = #{id}
     </select>
 </mapper>
